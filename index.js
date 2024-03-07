@@ -15,7 +15,6 @@ app.use(express.json());
 
 app.use('/api/auth',router);
 app.use('/api/notes',notesRouter);
-
 app.get('/', (req, res) => { 
   res.send('Hello Ashwini!!!!!')
 })
